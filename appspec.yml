@@ -1,9 +1,5 @@
 version: 0.0
-Resources:
-  - testLambdaFunction:
-      Type: AWS::Lambda::Function
-      Properties:
-        Name: "eddie-test"
-        Alias: "eddieTestAlias"
-        CurrentVersion: "1"
-        TargetVersion: "2"
+os: linux
+files:
+  - source: ./app
+    destination: /var/task/app

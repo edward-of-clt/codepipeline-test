@@ -12,4 +12,4 @@ artifacts:
   files:
     - app
     - appspec.yml
-  discard-paths: true
+  discard-paths: yes
