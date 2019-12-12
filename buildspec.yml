@@ -9,4 +9,5 @@ phases:
       - go build -o app .
 
 artifacts:
-  - app
+  files:
+    - app
