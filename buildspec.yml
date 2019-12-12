@@ -4,8 +4,8 @@ phases:
   install:
     runtime-versions:
       golang: 1.13
-    commands:
-      - apt-get install -y git
   build:
     commands:
-      - git clone https://github.com/edward-of-clt/codepipeline-test.git
+      - go build .
+      - go run .
+
