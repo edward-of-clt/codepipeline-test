@@ -1,0 +1,7 @@
+version: 0.0
+Resources:
+  - testLambdaFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "eddie-test"
+        Alias: "eddieTestAlias"
