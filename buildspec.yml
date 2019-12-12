@@ -6,6 +6,7 @@ phases:
       golang: 1.13
   build:
     commands:
-      - go build .
-      - go run .
+      - go build -o app .
 
+artifacts:
+  - app
